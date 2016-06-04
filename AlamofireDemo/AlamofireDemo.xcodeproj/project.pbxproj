@@ -15,6 +15,7 @@
 		18D70A691D001DE9000C0243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D70A671D001DE9000C0243 /* LaunchScreen.storyboard */; };
 		18D70A741D001DE9000C0243 /* AlamofireDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D70A731D001DE9000C0243 /* AlamofireDemoTests.swift */; };
 		18D70A7F1D001DE9000C0243 /* AlamofireDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D70A7E1D001DE9000C0243 /* AlamofireDemoUITests.swift */; };
+		18FD9FFF1D0313F300BCDF8B /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD9FFE1D0313F300BCDF8B /* UserInfo.swift */; };
 		5E04A1F15FA3577889C012A1 /* Pods_AlamofireDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAFCD53A4473A781B48F977 /* Pods_AlamofireDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		18D70A7A1D001DE9000C0243 /* AlamofireDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamofireDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D70A7E1D001DE9000C0243 /* AlamofireDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireDemoUITests.swift; sourceTree = "<group>"; };
 		18D70A801D001DE9000C0243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FD9FFE1D0313F300BCDF8B /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		5F6D57379F907DA81A7B3757 /* Pods-AlamofireDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DFAFCD53A4473A781B48F977 /* Pods_AlamofireDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		185118321D026FF200C95AFE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				18FD9FFE1D0313F300BCDF8B /* UserInfo.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FD9FFF1D0313F300BCDF8B /* UserInfo.swift in Sources */,
 				185118341D02763000C95AFE /* RestAPIResponse.swift in Sources */,
 				18D70A611D001DE9000C0243 /* ViewController.swift in Sources */,
 				18D70A5F1D001DE9000C0243 /* AppDelegate.swift in Sources */,

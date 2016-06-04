@@ -4,6 +4,8 @@ use_frameworks!
 
 target 'AlamofireDemo' do
   pod 'Alamofire', '~> 3.4'
+  pod 'SwiftyRSA'
+  pod 'Heimdall', '~> 1.0.0'
   pod 'AlamofireObjectMapper', '~> 3.0'
   pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 end

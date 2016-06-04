@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Heimdall.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,10 +34,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyRSA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4D6E60F63CDE845D3BFEFD972B03B985</key>
+		<key>22C342F9589B91B65C82C394ACB0B387</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,12 +52,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5CBCAA97E951CC882334464FBDF983D</key>
+		<key>A2CA156C3349B9C1B03C708A041C2A83</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA89603B3842421E3424B51ED83AB7C5</key>
+		<key>AA1303BFC93248BFD00D29F0C72BA602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE2A82500031DF8EC05006A161F05538</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5CBCAA97E951CC882334464FBDF983D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
