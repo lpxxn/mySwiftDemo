@@ -138,21 +138,32 @@ class ViewController: UIViewController {
     }
     
     func RSAencrypt(content: String) -> String {
-        let publicKey = "<RSAKeyValue><Modulus>jwdBmiZ9kUyF/2ROhEoLT9/r6Zyark/2WYqa8ZGREZGGUlitK57EFxzGoqbxhE9B79M3nM8ZWWZYHaPNzooq5yjMgP0D+nwvT9Dn4RUfdAKVGfUb2AZimfYcK/mQTeAymi5O9h76kAlS62Y6HBZhLsZtKxs8cnxpC4YgxZlfTx8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>"
+//        let publicKey = "<RSAKeyValue><Modulus>jwdBmiZ9kUyF/2ROhEoLT9/r6Zyark/2WYqa8ZGREZGGUlitK57EFxzGoqbxhE9B79M3nM8ZWWZYHaPNzooq5yjMgP0D+nwvT9Dn4RUfdAKVGfUb2AZimfYcK/mQTeAymi5O9h76kAlS62Y6HBZhLsZtKxs8cnxpC4YgxZlfTx8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>"
         
 //        let encryptedData = try! SwiftyRSA.encryptData(content.dataUsingEncoding(NSUTF8StringEncoding)!, publicKeyPEM: publicKey)
 //        
 //        return encryptedData
         
+        /*1
         let heimdall = Heimdall(publicTag: "", publicKeyModulus: "wdBmiZ9kUyF/2ROhEoLT9/r6Zyark/2WYqa8ZGREZGGUlitK57EFxzGoqbxhE9B79M3nM8ZWWZYHaPNzooq5yjMgP0D+nwvT9Dn4RUfdAKVGfUb2AZimfYcK/mQTeAymi5O9h76kAlS62Y6HBZhLsZtKxs8cnxpC4YgxZlfTx8=".dataUsingEncoding(NSUTF8StringEncoding)!, publicKeyExponent: "AQAB".dataUsingEncoding(NSUTF8StringEncoding)!)
         
         print(heimdall?.encrypt(content))
         let base64 = heimdall?.encrypt(content.dataUsingEncoding(NSUTF8StringEncoding)!)?.base64EncodedStringWithOptions(NSDataBase64EncodingOptions(rawValue: 0))
         print(base64)
         return base64!
+        */
+        
         //return (heimdall?.encrypt(content.dataUsingEncoding(NSUTF8StringEncoding)!))!
         
-        //return NSData();
+        //
+        
+        
+        let publicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCPB0GaJn2RTIX/ZE6ESgtP3+vpnJquT/ZZiprxkZERkYZSWK0rnsQXHMaipvGET0Hv0zeczxlZZlgdo83OiirnKMyA/QP6fC9P0OfhFR90ApUZ9RvYBmKZ9hwr+ZBN4DKaLk72HvqQCVLrZjocFmEuxm0rGzxyfGkLhiDFmV9PHwIDAQAB"
+        
+        let encryptedData = try! SwiftyRSA.encryptData(content.dataUsingEncoding(NSUTF8StringEncoding)!, publicKeyPEM: publicKey)
+        let base64 = encryptedData.base64EncodedStringWithOptions(NSDataBase64EncodingOptions(rawValue: 0))
+        print(base64)
+        return base64
     }
     
     @IBAction func LoginServer(sender: AnyObject) {
