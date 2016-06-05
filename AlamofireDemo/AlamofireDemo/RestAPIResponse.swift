@@ -40,7 +40,7 @@ class restAPIResponseBase : Mappable {
 }
 
 class restAPIResponse<T: Mappable>: restAPIResponseBase {
-    var result: [T] = [T]()
+    var result: [T]?// = [T]()
     
     required init?(_ map: Map) {
         super.init(map)

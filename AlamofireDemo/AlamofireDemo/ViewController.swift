@@ -50,7 +50,7 @@ class ViewController: UIViewController {
                 
                 print(value.resultDesc ?? "")
                 print(value.resultCode)
-                print(value.result[0].id)
+                print(value.result?[0].id)
             case .Failure(let error):
                 print(error)
                 
@@ -81,7 +81,7 @@ class ViewController: UIViewController {
                 print(model2?.result[0].id)
                 
                 let model3 = Mapper<restAPIResponse<reportModel>>().map(value)
-                print(model3?.result[0].id)
+                print(model3?.result?[0].id)
 
                 
             case .Failure(let error):
