@@ -18,26 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1s-TV-dUM">
-                                <rect key="frame" x="226" y="517" width="149" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="149" id="Qm6-Aw-F5X"/>
-                                </constraints>
-                                <state key="normal" title="Sign Up for Facebook">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrI-Ra-hAg">
-                                <rect key="frame" x="245" y="550" width="111" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="111" id="gYu-jr-IEy"/>
-                                </constraints>
-                                <state key="normal" title="Help Center">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vhc-pf-DoS" userLabel="LoginContent">
                                 <rect key="frame" x="40" y="175" width="520" height="249"/>
                                 <subviews>
@@ -131,18 +111,38 @@
                                     <constraint firstItem="brf-xY-qJc" firstAttribute="centerX" secondItem="Vhc-pf-DoS" secondAttribute="centerX" id="zQ7-nA-mbI"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrI-Ra-hAg">
+                                <rect key="frame" x="245" y="550" width="111" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="gYu-jr-IEy"/>
+                                </constraints>
+                                <state key="normal" title="Help Center">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1s-TV-dUM">
+                                <rect key="frame" x="226" y="517" width="149" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="Qm6-Aw-F5X"/>
+                                </constraints>
+                                <state key="normal" title="Sign Up for Facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.15686274509803921" green="0.22352941176470589" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Vhc-pf-DoS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Ov-8H-44X"/>
                             <constraint firstItem="Vhc-pf-DoS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7qZ-Pz-I3w"/>
+                            <constraint firstItem="zrI-Ra-hAg" firstAttribute="top" secondItem="N1s-TV-dUM" secondAttribute="bottom" constant="3" id="LQ0-2t-JTk"/>
                             <constraint firstItem="N1s-TV-dUM" firstAttribute="centerX" secondItem="Vhc-pf-DoS" secondAttribute="centerX" id="LSP-RK-fvO"/>
-                            <constraint firstItem="N1s-TV-dUM" firstAttribute="top" secondItem="Vhc-pf-DoS" secondAttribute="bottom" constant="93" id="OG8-pQ-iPR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zrI-Ra-hAg" secondAttribute="bottom" constant="20" id="PYI-Wf-ufN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Vhc-pf-DoS" secondAttribute="trailing" constant="20" id="TsF-qC-zFt"/>
                             <constraint firstItem="Vhc-pf-DoS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="mQC-3Z-Yzh"/>
                             <constraint firstItem="zrI-Ra-hAg" firstAttribute="centerX" secondItem="N1s-TV-dUM" secondAttribute="centerX" id="sQo-Rh-sJt"/>
-                            <constraint firstItem="zrI-Ra-hAg" firstAttribute="top" secondItem="N1s-TV-dUM" secondAttribute="bottom" constant="3" id="tds-pF-vBm"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="PHp-wL-K5B" appends="YES" id="uQa-Ve-I8A"/>
