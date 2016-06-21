@@ -49,7 +49,7 @@ public struct TabMenuAppearance {
     public var selectedTitleFont : UIFont = UIFont.boldSystemFontOfSize(15)
     
     // Selected View
-    public var selectedViewBackgroundColor : UIColor = UIColor.greenColor()
+    public var selectedViewBackgroundColor : UIColor = UIColor.blueColor()
     public var selectedViewInsets : UIEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     
     public var backgroundContentsView : UIView?

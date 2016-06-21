@@ -22,13 +22,16 @@ class ViewController: UIViewController {
         
         var appearance = ViewPagerControllerAppearance()
         
-        appearance.tabMenuHeight = 44.0
-        appearance.scrollViewMinPositionY = 20.0
+        appearance.tabMenuHeight = 50.0
+        appearance.scrollViewMinPositionY = 0.0
         appearance.scrollViewObservingType = .NavigationBar(targetNavigationBar: self.navigationController!.navigationBar)
         
-        appearance.tabMenuAppearance.backgroundColor = UIColor.darkGrayColor()
-        appearance.tabMenuAppearance.selectedViewBackgroundColor = UIColor.blueColor()
-        appearance.tabMenuAppearance.selectedViewInsets = UIEdgeInsets(top: 39, left: 0, bottom: 0, right: 0)
+        appearance.tabMenuAppearance.backgroundColor = UIColor.lightGrayColor()
+        appearance.tabMenuAppearance.selectedViewBackgroundColor = UIColor.redColor()
+        appearance.tabMenuAppearance.highlightedTitleColor = UIColor.greenColor()
+        appearance.tabMenuAppearance.selectedTitleColor = UIColor.greenColor()
+        //menu下边的条
+        appearance.tabMenuAppearance.selectedViewInsets = UIEdgeInsets(top: 47, left: 0, bottom: 0, right: 0)
         
         pagerController.updateAppearance(appearance)
         
