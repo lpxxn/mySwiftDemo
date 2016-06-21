@@ -60,7 +60,7 @@
         <!--Detail View Controller-->
         <scene sceneID="tHR-yA-SEX">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" id="bkD-C8-hJQ" customClass="DetailViewController" customModule="InfiniteViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" autoresizesArchivedViewToFullSize="NO" id="bkD-C8-hJQ" customClass="DetailViewController" customModule="InfiniteViewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ki3-VW-UIv"/>
                         <viewControllerLayoutGuide type="bottom" id="DkI-4v-D95"/>

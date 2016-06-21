@@ -20,6 +20,7 @@ class DetailViewController: UIViewController ,UITableViewDelegate, UITableViewDa
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        //navigationController?.hidesBarsOnSwipe = false
         print("DetailViewController viewWillAppear - " + self.title!)
     }
     

@@ -14,8 +14,10 @@ class ViewController: UIViewController {
     
     var pagerController : ViewPagerController?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         let pagerController = ViewPagerController()
         pagerController.setParentController(self, parentView: self.layerView)
@@ -24,10 +26,10 @@ class ViewController: UIViewController {
         
         appearance.tabMenuHeight = 50.0
         appearance.scrollViewMinPositionY = 0.0
-        appearance.scrollViewObservingType = .NavigationBar(targetNavigationBar: self.navigationController!.navigationBar)
+        //appearance.scrollViewObservingType = .NavigationBar(targetNavigationBar: self.navigationController!.navigationBar)
         
         appearance.tabMenuAppearance.backgroundColor = UIColor.whiteColor()
-        appearance.tabMenuAppearance.selectedViewBackgroundColor = UIColor.redColor()
+        appearance.tabMenuAppearance.selectedViewBackgroundColor = UIColor.greenColor()
         appearance.tabMenuAppearance.highlightedTitleColor = UIColor.greenColor()
         appearance.tabMenuAppearance.selectedTitleColor = UIColor.greenColor()
         //menu下边的条
@@ -74,7 +76,11 @@ class ViewController: UIViewController {
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         
-        self.pagerController?.resetNavigationBarHeight(true)
+        self.pagerController?.resetNavigationBarHeight(false)
+        self.pagerController?.navigationController?.hidesBarsOnSwipe = false;
+        navigationController?.hidesBarsOnSwipe = false
+        navigationController?.hidesBarsOnTap = false
+
     }
 
 
