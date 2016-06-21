@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource{
     
     weak var parentController : UIViewController?
     
@@ -52,4 +52,8 @@ class DetailViewController: UIViewController {
         
         self.parentController?.navigationController?.pushViewController(controller, animated: true)
     }
+    
+//    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//        return 10.0
+//    }
 }

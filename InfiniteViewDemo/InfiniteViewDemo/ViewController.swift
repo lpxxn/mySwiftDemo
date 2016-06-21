@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         appearance.scrollViewMinPositionY = 0.0
         appearance.scrollViewObservingType = .NavigationBar(targetNavigationBar: self.navigationController!.navigationBar)
         
-        appearance.tabMenuAppearance.backgroundColor = UIColor.lightGrayColor()
+        appearance.tabMenuAppearance.backgroundColor = UIColor.whiteColor()
         appearance.tabMenuAppearance.selectedViewBackgroundColor = UIColor.redColor()
         appearance.tabMenuAppearance.highlightedTitleColor = UIColor.greenColor()
         appearance.tabMenuAppearance.selectedTitleColor = UIColor.greenColor()
