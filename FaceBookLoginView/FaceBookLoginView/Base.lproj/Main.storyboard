@@ -21,13 +21,6 @@
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vhc-pf-DoS" userLabel="LoginContent">
                                 <rect key="frame" x="40" y="175" width="520" height="249"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebookLogo" translatesAutoresizingMaskIntoConstraints="NO" id="brf-xY-qJc">
-                                        <rect key="frame" x="171" y="20" width="178" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="178" id="hnv-bo-qVI"/>
-                                            <constraint firstAttribute="height" constant="37" id="ork-GS-dJU"/>
-                                        </constraints>
-                                    </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLy-d6-ehh" userLabel="InputText">
                                         <rect key="frame" x="5" y="90" width="510" height="96"/>
                                         <subviews>
@@ -94,6 +87,13 @@
                                             <action selector="Login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jml-DX-pZ2"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebookLogo" translatesAutoresizingMaskIntoConstraints="NO" id="brf-xY-qJc">
+                                        <rect key="frame" x="171" y="20" width="178" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="178" id="hnv-bo-qVI"/>
+                                            <constraint firstAttribute="height" constant="37" id="ork-GS-dJU"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
