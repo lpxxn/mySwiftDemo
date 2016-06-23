@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource{
+class DetailViewController: UIViewController{
     
     weak var parentController : UIViewController?
     

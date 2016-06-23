@@ -53,7 +53,7 @@ public protocol InfiniteScrollViewDelegate: class {
 }
 
 public final class InfiniteScrollView: UIScrollView {
-    
+
     public weak var infiniteDataSource : InfiniteScrollViewDataSource!
     public weak var infiniteDelegate : InfiniteScrollViewDelegate?
     
@@ -249,7 +249,7 @@ public final class InfiniteScrollView: UIScrollView {
     
     public func reloadView(position: XPosition, item: InfiniteItem, edge: CGFloat) {
         guard self.infiniteDataSource.totalItemCount() > 0 else { return }
-        
+      
         let convertIndex = self.convertIndex(item.index)
         let bounds = self.bounds
         let thickness = CGFloat(ceilf(Float(self.infiniteDataSource.thicknessForIndex(convertIndex))))
@@ -292,10 +292,10 @@ public final class InfiniteScrollView: UIScrollView {
     public func scrollToCenter(index: Int, offset: CGFloat, animated: Bool, animation: (Void -> Void)?, completion: (Void -> Void)?) {
         guard self.infiniteDataSource.totalItemCount() > 0 else { return }
         if self.bounds.isEmpty { return }
-        
+      
         self.setNeedsLayout()
         self.layoutIfNeeded()
-        
+      
         var bounds = self.bounds
         let visible = bounds.size.width
         
@@ -356,16 +356,16 @@ public final class InfiniteScrollView: UIScrollView {
         
         self.scrolling += 1
         self.setContentOffset(self.contentOffset, animated: false)
-        
+      
         if animated {
             UIView.animateKeyframesWithDuration(0.25, delay: 0, options: .BeginFromCurrentState, animations: {
                 self.bounds = bounds
                 animation?()
-                }, completion: { finished in
-                    self.scrolling -= 1
-                    self.setNeedsLayout()
-                    self.layoutIfNeeded()
-                    completion?()
+            }, completion: { finished in
+                self.scrolling -= 1
+                self.setNeedsLayout()
+                self.layoutIfNeeded()
+                completion?()
             })
         } else {
             self.bounds = bounds
@@ -384,7 +384,7 @@ public final class InfiniteScrollView: UIScrollView {
         
         return currentIndex == total ? 0 : currentIndex
     }
-    
+  
     // MARK: - Private Functions
     
     private func createItem(index: Int) -> InfiniteItem {

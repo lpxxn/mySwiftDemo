@@ -1,9 +1,9 @@
 //
 //  ViewPagerController.swift
-//  Demo
+//  ViewPagerController
 //
-//  Created by peng.li on 16/6/21.
-//  Copyright © 2016年 xxxAIRINxxx. All rights reserved.
+//  Created by xxxAIRINxxx on 2016/01/05.
+//  Copyright © 2016 xxxAIRINxxx. All rights reserved.
 //
 
 import Foundation
@@ -66,9 +66,9 @@ public final class ViewPagerController: UIViewController {
     internal var targetNavigationBar : UINavigationBar?
     
     internal var headerViewHeightConstraint : NSLayoutConstraint!
-    
+
     internal var tabMenuViewHeightConstraint : NSLayoutConstraint!
-    
+
     internal var viewTopConstraint : NSLayoutConstraint!
     
     internal var observingScrollView : UIScrollView? {
@@ -164,7 +164,7 @@ public final class ViewPagerController: UIViewController {
     public func currentContent() -> UIViewController? {
         return self.containerView.currentContent()
     }
-    
+  
     // MARK: - Private Functions
     
     private func setupConstraint() {

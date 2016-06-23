@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18118D531D19177700A90AFC /* PagerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D4C1D19177700A90AFC /* PagerContainerView.swift */; };
-		18118D541D19177700A90AFC /* PagerTabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D4D1D19177700A90AFC /* PagerTabMenuView.swift */; };
-		18118D551D19177700A90AFC /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D4E1D19177700A90AFC /* UIColor+RGBA.swift */; };
-		18118D561D19177700A90AFC /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D4F1D19177700A90AFC /* UIView+AutoLayout.swift */; };
-		18118D571D19177700A90AFC /* ViewPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D501D19177700A90AFC /* ViewPagerController.swift */; };
-		18118D581D19177700A90AFC /* ViewPagerController+ScrollHeaderSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D511D19177700A90AFC /* ViewPagerController+ScrollHeaderSupport.swift */; };
-		18118D591D19177700A90AFC /* ViewPagerControllerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D521D19177700A90AFC /* ViewPagerControllerAppearance.swift */; };
-		18118D621D1917A000A90AFC /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D5A1D1917A000A90AFC /* InfiniteScrollView.swift */; };
 		18118D6B1D191AAF00A90AFC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D6A1D191AAF00A90AFC /* SampleData.swift */; };
 		18118D6D1D191AD500A90AFC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118D6C1D191AD500A90AFC /* DetailViewController.swift */; };
+		1816D9A01D1A262D005133A7 /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D9981D1A262D005133A7 /* InfiniteScrollView.swift */; };
+		1816D9A11D1A262D005133A7 /* PagerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D9991D1A262D005133A7 /* PagerContainerView.swift */; };
+		1816D9A21D1A262D005133A7 /* PagerTabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D99A1D1A262D005133A7 /* PagerTabMenuView.swift */; };
+		1816D9A31D1A262D005133A7 /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D99B1D1A262D005133A7 /* UIColor+RGBA.swift */; };
+		1816D9A41D1A262D005133A7 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D99C1D1A262D005133A7 /* UIView+AutoLayout.swift */; };
+		1816D9A51D1A262D005133A7 /* ViewPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D99D1D1A262D005133A7 /* ViewPagerController.swift */; };
+		1816D9A61D1A262D005133A7 /* ViewPagerController+ScrollHeaderSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D99E1D1A262D005133A7 /* ViewPagerController+ScrollHeaderSupport.swift */; };
+		1816D9A71D1A262D005133A7 /* ViewPagerControllerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D99F1D1A262D005133A7 /* ViewPagerControllerAppearance.swift */; };
 		1887226D1D18C29000DFDDD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887226C1D18C29000DFDDD5 /* AppDelegate.swift */; };
 		1887226F1D18C29000DFDDD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887226E1D18C29000DFDDD5 /* ViewController.swift */; };
 		188722721D18C29000DFDDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188722701D18C29000DFDDD5 /* Main.storyboard */; };
@@ -44,16 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18118D4C1D19177700A90AFC /* PagerContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerContainerView.swift; sourceTree = "<group>"; };
-		18118D4D1D19177700A90AFC /* PagerTabMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerTabMenuView.swift; sourceTree = "<group>"; };
-		18118D4E1D19177700A90AFC /* UIColor+RGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
-		18118D4F1D19177700A90AFC /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
-		18118D501D19177700A90AFC /* ViewPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerController.swift; sourceTree = "<group>"; };
-		18118D511D19177700A90AFC /* ViewPagerController+ScrollHeaderSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewPagerController+ScrollHeaderSupport.swift"; sourceTree = "<group>"; };
-		18118D521D19177700A90AFC /* ViewPagerControllerAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerControllerAppearance.swift; sourceTree = "<group>"; };
-		18118D5A1D1917A000A90AFC /* InfiniteScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
 		18118D6A1D191AAF00A90AFC /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		18118D6C1D191AD500A90AFC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1816D9981D1A262D005133A7 /* InfiniteScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
+		1816D9991D1A262D005133A7 /* PagerContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerContainerView.swift; sourceTree = "<group>"; };
+		1816D99A1D1A262D005133A7 /* PagerTabMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerTabMenuView.swift; sourceTree = "<group>"; };
+		1816D99B1D1A262D005133A7 /* UIColor+RGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
+		1816D99C1D1A262D005133A7 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		1816D99D1D1A262D005133A7 /* ViewPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerController.swift; sourceTree = "<group>"; };
+		1816D99E1D1A262D005133A7 /* ViewPagerController+ScrollHeaderSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewPagerController+ScrollHeaderSupport.swift"; sourceTree = "<group>"; };
+		1816D99F1D1A262D005133A7 /* ViewPagerControllerAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerControllerAppearance.swift; sourceTree = "<group>"; };
 		188722691D18C28F00DFDDD5 /* InfiniteViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1887226C1D18C29000DFDDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1887226E1D18C29000DFDDD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,14 +97,14 @@
 		18118D4B1D19172400A90AFC /* InfiniteView */ = {
 			isa = PBXGroup;
 			children = (
-				18118D5A1D1917A000A90AFC /* InfiniteScrollView.swift */,
-				18118D4C1D19177700A90AFC /* PagerContainerView.swift */,
-				18118D4D1D19177700A90AFC /* PagerTabMenuView.swift */,
-				18118D4E1D19177700A90AFC /* UIColor+RGBA.swift */,
-				18118D4F1D19177700A90AFC /* UIView+AutoLayout.swift */,
-				18118D501D19177700A90AFC /* ViewPagerController.swift */,
-				18118D511D19177700A90AFC /* ViewPagerController+ScrollHeaderSupport.swift */,
-				18118D521D19177700A90AFC /* ViewPagerControllerAppearance.swift */,
+				1816D9981D1A262D005133A7 /* InfiniteScrollView.swift */,
+				1816D9991D1A262D005133A7 /* PagerContainerView.swift */,
+				1816D99A1D1A262D005133A7 /* PagerTabMenuView.swift */,
+				1816D99B1D1A262D005133A7 /* UIColor+RGBA.swift */,
+				1816D99C1D1A262D005133A7 /* UIView+AutoLayout.swift */,
+				1816D99D1D1A262D005133A7 /* ViewPagerController.swift */,
+				1816D99E1D1A262D005133A7 /* ViewPagerController+ScrollHeaderSupport.swift */,
+				1816D99F1D1A262D005133A7 /* ViewPagerControllerAppearance.swift */,
 			);
 			path = InfiniteView;
 			sourceTree = "<group>";
@@ -298,17 +298,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1887226F1D18C29000DFDDD5 /* ViewController.swift in Sources */,
-				18118D561D19177700A90AFC /* UIView+AutoLayout.swift in Sources */,
-				18118D591D19177700A90AFC /* ViewPagerControllerAppearance.swift in Sources */,
+				1816D9A61D1A262D005133A7 /* ViewPagerController+ScrollHeaderSupport.swift in Sources */,
+				1816D9A41D1A262D005133A7 /* UIView+AutoLayout.swift in Sources */,
+				1816D9A51D1A262D005133A7 /* ViewPagerController.swift in Sources */,
+				1816D9A31D1A262D005133A7 /* UIColor+RGBA.swift in Sources */,
 				18118D6D1D191AD500A90AFC /* DetailViewController.swift in Sources */,
-				18118D531D19177700A90AFC /* PagerContainerView.swift in Sources */,
-				18118D551D19177700A90AFC /* UIColor+RGBA.swift in Sources */,
+				1816D9A01D1A262D005133A7 /* InfiniteScrollView.swift in Sources */,
 				1887226D1D18C29000DFDDD5 /* AppDelegate.swift in Sources */,
-				18118D541D19177700A90AFC /* PagerTabMenuView.swift in Sources */,
-				18118D621D1917A000A90AFC /* InfiniteScrollView.swift in Sources */,
+				1816D9A71D1A262D005133A7 /* ViewPagerControllerAppearance.swift in Sources */,
+				1816D9A21D1A262D005133A7 /* PagerTabMenuView.swift in Sources */,
+				1816D9A11D1A262D005133A7 /* PagerContainerView.swift in Sources */,
 				18118D6B1D191AAF00A90AFC /* SampleData.swift in Sources */,
-				18118D581D19177700A90AFC /* ViewPagerController+ScrollHeaderSupport.swift in Sources */,
-				18118D571D19177700A90AFC /* ViewPagerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

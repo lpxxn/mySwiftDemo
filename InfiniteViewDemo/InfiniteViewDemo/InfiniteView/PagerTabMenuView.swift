@@ -1,9 +1,9 @@
 //
 //  PagerTabMenuView.swift
-//  Demo
+//  ViewPagerController
 //
-//  Created by peng.li on 16/6/21.
-//  Copyright © 2016年 xxxAIRINxxx. All rights reserved.
+//  Created by xxxAIRINxxx on 2016/01/05.
+//  Copyright © 2016 xxxAIRINxxx. All rights reserved.
 //
 
 import Foundation
@@ -12,7 +12,7 @@ import UIKit
 public final class PagerTabMenuView: UIView {
     
     // MARK: - Public Handler Properties
-    
+
     public var selectedIndexHandler : (Int -> Void)?
     
     public var updateSelectedViewHandler : (UIView -> Void)?
@@ -116,7 +116,7 @@ public final class PagerTabMenuView: UIView {
         super.init(frame: frame)
         self.commonInit()
     }
-    
+
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.commonInit()

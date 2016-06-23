@@ -1,11 +1,10 @@
 //
 //  PagerContainerView.swift
-//  InfiniteViewDemo
+//  ViewPagerController
 //
-//  Created by peng.li on 16/6/21.
-//  Copyright © 2016年 pengli.xxn. All rights reserved.
+//  Created by xxxAIRINxxx on 2016/01/05.
+//  Copyright © 2016 xxxAIRINxxx. All rights reserved.
 //
-
 
 import Foundation
 import UIKit
@@ -110,10 +109,10 @@ public final class PagerContainerView: UIView {
     public func reload() {
         self.scrollView.resetWithIndex(0)
     }
-    
+  
     public func currentContent() -> UIViewController? {
         guard let _index = self.currentIndex() where _index != Int.min else { return nil }
-        
+      
         return self.contents[self.scrollView.convertIndex(_index)]
     }
 }
@@ -209,4 +208,3 @@ extension PagerContainerView: InfiniteScrollViewDelegate {
         self.didShowViewControllerHandler?(controller)
     }
 }
-

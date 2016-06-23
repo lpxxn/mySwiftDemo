@@ -39,6 +39,33 @@
             </objects>
             <point key="canvasLocation" x="1178" y="384"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="SBi-WY-ULv">
+            <objects>
+                <viewController id="fbu-Fz-D8J" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ITn-1a-nPP"/>
+                        <viewControllerLayoutGuide type="bottom" id="fX2-q1-inS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wQh-Fe-t1K">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO1-oS-3oJ">
+                                <rect key="frame" x="230" y="304" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="8j4-J4-HQY" kind="showDetail" id="WSo-sZ-3Aw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RqG-8Z-l42" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-220" y="384"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="oap-Mm-VNm">
             <objects>
