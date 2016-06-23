@@ -24,9 +24,10 @@ class ViewController: UIViewController {
         
         var appearance = ViewPagerControllerAppearance()
         
-        appearance.headerHeight = 200.0
-        appearance.scrollViewMinPositionY = 20.0
-        appearance.scrollViewObservingType = .Header
+        //appearance.headerHeight = 200.0
+        appearance.headerHeight = 50.0
+        //appearance.scrollViewMinPositionY = 20.0
+        //appearance.scrollViewObservingType = .Header
         
         let imageView = UIImageView(image: UIImage(named: "sample_header_image.jpg"))
         imageView.contentMode = .ScaleAspectFill
@@ -133,6 +134,13 @@ class ViewController: UIViewController {
 //        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "remove", style: .Plain, target: self, action: #selector(ViewController.remove))
         
         
+        
+        
+       
+        self.pagerController?.tabMenuView.scrollToCenter(1, animated: true, animation: nil, completion: nil)
+        
+        self.pagerController?.tabMenuView.layoutIfNeeded()
+        self.pagerController?.tabMenuView.setNeedsLayout()
     }
     
     @objc private func remove() {
@@ -150,7 +158,7 @@ class ViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        pagerController?.tabMenuView.scrollToCenter(0, animated: true, animation: nil, completion: nil)
+//       pagerController?.tabMenuView.scrollToCenter(0, animated: true, animation: nil, completion: nil)
 //        pagerController?.tabMenuView.stopScrolling(0)
 
     }
